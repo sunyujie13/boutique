@@ -7,9 +7,7 @@ if(isset($_GET["id_commande"])){
 
 $donnees_commandes = $r->fetchAll(PDO::FETCH_ASSOC);
 //echo "<pre>";var_dump($donnees_commandes);echo "</pre>";
-
 }
-
 ?>
 
 <div class="container">
