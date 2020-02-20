@@ -12,7 +12,6 @@ while($categories = $r->fetch(PDO::FETCH_ASSOC)) {
 	$content .= "<li><a href=\"?categorie=$categories[categorie]\"> $categories[categorie] </a> </li>";
 }
 $content .= '</ul></div>';
-
 // Si j'ai cliqué sur une catégorie et donc jai un paramètre GET dans l'URL, alors je récupère en bases tous les produits qui correspondent à cette catégorie que jaffiche après rechargement de la page dans index.php
 if(isset($_GET["categorie"])){
 
@@ -27,9 +26,6 @@ while($produits = $r->fetch(PDO::FETCH_ASSOC)) {
 			</div>
 			</div>";
 }
-
-
-
 
 }
 
