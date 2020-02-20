@@ -1,0 +1,95 @@
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 5px;
+}
+
+.justify-content-end{
+  text-align: right;
+}
+
+.invoiceHeader, .invoiceContent,
+.invoiceFooter, .invoiceReprise{
+  border: 1px solid;
+}
+
+.invoiceHeader ul{
+  list-style-type: none;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+  margin: 0;
+  font-weight: bold;
+}
+
+.invoiceHeader ul li{
+  display: inline-block;
+  width: 100%;
+}
+
+.invoiceContent, .invoiceFooter, .invoiceReprise{
+  padding: 10px 0 10px 10px;
+  display: block;
+}
+
+.invoiceFooter p{
+  display: inline-block;
+}
+
+.invoiceContent ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.backgroundGey{
+  background: rgba(0,0,0,0.4);
+  width: 300px;
+  word-spacing: 170px;
+}
+
+.invoiceReprise{
+  border-top:0;
+}
+
+.invoiceHeader{
+  background: rgba(0,0,0,0.4);
+}
+
+.invoiceTotal >div{
+  border: 1px solid;
+  margin: 0;
+  padding:0;
+  height:200px;
+}
+
+.invoiceTotal div.headerTotal {
+  background: rgba(0,0,0,0.4);
+  border:none;
+  text-align: center;
+}
+
+table tr td:first-of-type{
+  font-weight: bold;
+}
+
+table tr td:nth-of-type(2){
+  padding-left: 50px;
+}
+
+.backgroundGeySmall{
+  background: rgba(0,0,0,0.4);
+}
