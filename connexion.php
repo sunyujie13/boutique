@@ -7,7 +7,6 @@ if(isset($_GET["action"]) && $_GET["action"] == "deconnexion"){
 	header("Refresh:0; url=connexion.php");
 	exit();
 }
-
 // Nous redirigeons l'internaute vers la page profil si il est déjà connecté
 if(internauteEstConnecte()){
 	header("location:profil.php");
